@@ -71,14 +71,6 @@ public class MainActivity extends AppCompatActivity {
     // *****************************Evento de listado ***************************************
 
     public void processData(){
-
-        int contador = 0 ;
-        do { textView.append("\n");
-
-            contador += 1;
-
-        } while (contador<45);
-
         for (User str : userList){
             textView.append("\n");
             textView.append("codigo: " + str.getCodigo() + "\n");
